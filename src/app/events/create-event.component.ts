@@ -10,7 +10,7 @@ import {Router} from '@angular/router';
 
 export class CreateEventComponent{
 
-  //variable to check if page is on edit or not
+  // variable to check if page is on edit or not
   isDirty: boolean = true;
 
   constructor(private router: Router) {
